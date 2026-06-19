@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Санаторий НИВА | Продажа объекта в Новосибирске</title>
+  <meta
+    name="description"
+    content="Продажа санатория НИВА в живописном месте Новосибирска. 4000 м² помещений, 9 гектар земельного участка."
+  />
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top">НИВА</a>
+    <nav class="nav" aria-label="Основная навигация">
+      <a href="#about">Об объекте</a>
+      <a href="#gallery">Фото</a>
+      <a href="#video">Видео</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="header-phone" href="tel:+79139105892">Позвонить</a>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-label="Санаторий НИВА">
+      <img class="hero-image" src="Фото и видео/IMG_20260619_152122.png" alt="Здание санатория НИВА в зеленой зоне" />
+  
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">Продажа объекта недвижимости</p>
+        <h1>Санаторий «НИВА»</h1>
+        <p class="hero-text">
+          Просторный санаторный комплекс в живописном месте города Новосибирска:
+          помещения 4000 м² и земельный участок 9 гектар.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="tel:+79139105892">Позвонить</a>
+          <a class="button button-secondary" href="#gallery">Смотреть фото</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro" id="about">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Ключевая информация</p>
+        <h2>Объект для инвестиций, восстановления или нового проекта</h2>
+      </div>
+
+      <div class="facts">
+        <article class="fact-card reveal">
+          <span class="fact-number">4000 м²</span>
+          <span class="fact-label">площадь помещений</span>
+        </article>
+        <article class="fact-card reveal">
+          <span class="fact-number">9 га</span>
+          <span class="fact-label">земельный участок</span>
+        </article>
+        <article class="fact-card reveal">
+          <span class="fact-number">Новосибирск</span>
+          <span class="fact-label">живописное место города</span>
+        </article>
+      </div>
+
+      <div class="details reveal">
+        <div>
+          <h3>Санаторий «НИВА»</h3>
+          <p>
+            На территории расположен крупный комплекс помещений и большая зеленая
+            зона. Подробности по объекту, условиям просмотра и документам можно
+            уточнить по телефону.
+          </p>
+        </div>
+        <dl class="details-list">
+          <div>
+            <dt>Площадь помещений</dt>
+            <dd>4000 квадратных метров</dd>
+          </div>
+          <div>
+            <dt>Площадь участка</dt>
+            <dd>9 гектар</dd>
+          </div>
+          <div>
+            <dt>Расположение</dt>
+            <dd>Живописное место города Новосибирска</dd>
+          </div>
+          <div>
+            <dt>Телефон</dt>
+            <dd><a href="tel:+79139105892">8 913 910-58-92</a></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Галерея</p>
+        <h2>Фотографии территории и здания</h2>
+      </div>
+
+      <div class="gallery reveal" aria-label="Фотогалерея">
+        <div class="slider">
+          <button class="slider-button slider-prev" type="button" aria-label="Предыдущее фото">‹</button>
+          <button class="slider-button slider-next" type="button" aria-label="Следующее фото">›</button>
+          <button class="open-lightbox" type="button" aria-label="Открыть фото на весь экран">
+            Увеличить
+          </button>
+          <img id="mainPhoto" src="Фото и видео/IMG_20260619_152122.png" alt="Фото санатория НИВА 1" />
+          <div class="counter" id="photoCounter">1 / 15</div>
+        </div>
+        <div class="thumbnails" id="thumbnails" aria-label="Миниатюры фотографий"></div>
+      </div>
+    </section>
+
+    <section class="section video-section" id="video">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Видео</p>
+        <h2>Короткий обзор объекта</h2>
+      </div>
+      <div class="video-frame reveal">
+        <video controls preload="metadata" poster="Фото и видео/IMG_20260619_152122.png">
+          <source src="Фото и видео/VID_20260619_152313.mp4" type="video/mp4" />
+          Ваш браузер не поддерживает видео. Откройте файл assets/video/tour.mp4 отдельно.
+        </video>
+      </div>
+    </section>
+
+    <section class="contact-band" id="contacts">
+      <div class="contact-content reveal">
+        <p class="eyebrow">Контакты</p>
+        <h2>Подробности уточняйте по телефону</h2>
+        <p>Звоните, чтобы узнать условия продажи, договориться о просмотре и получить дополнительную информацию.</p>
+        <a class="button button-primary" href="tel:+79139105892">8 913 910-58-92</a>
+      </div>
+    </section>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" type="button" aria-label="Закрыть">×</button>
+    <button class="lightbox-nav lightbox-prev" type="button" aria-label="Предыдущее фото">‹</button>
+    <img id="lightboxImage" src="Фото и видео/IMG_20260619_152122.png" alt="Фото санатория НИВА" />
+    <button class="lightbox-nav lightbox-next" type="button" aria-label="Следующее фото">›</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
